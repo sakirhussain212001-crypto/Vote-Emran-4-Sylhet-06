@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>Emran4Sylhet-06</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🌾 Emran4Sylhet-06</h1>
+</header>
+
+<div class="hud">
+  <div>⏱ সময়: <span id="time">15</span>s</div>
+  <div>🪙 স্কোর: <span id="score">0</span></div>
+</div>
+
+<div id="game">
+  <div id="runner">🌾</div>
+</div>
+
+<p class="hint">কয়েনে ট্যাপ করুন</p>
+
+<!-- SCORE CARD -->
+<div id="scoreCard" class="hidden">
+  <div class="card">
+    <h2>🎉 সময় শেষ!</h2>
+    <p class="final">মোট স্কোর: <span id="finalScore">0</span></p>
+    <p class="slogan">“ধানের শীষে ভোট দিন, উন্নয়নে অংশ নিন!”</p>
+    <button onclick="location.reload()">🔄 আবার খেলুন</button>
+  </div>
+</div>
+
+<!-- Background Music -->
+<audio id="bgMusic" loop>
+  <source src="sounds/bg.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
